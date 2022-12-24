@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Cinzel&family=Michroma&family=Noto+Nastaliq+Urdu&family=Oswald:wght@200&family=Poor+Story&family=Ubuntu:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --sans: sans-serif;
+    --ubuntu: 'ubuntu', sans-serif;
+}
+
+p.offer-para {
+    text-align: center;
+    padding: 20px 0px 15px 0px;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: var(--sans);
+}
+.burger{
+    display: none;
+}
+.cross{
+    display: none;
+}
+nav.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1b1b1c;
+    padding: 15px 177px;
+}
+
+img.nav-logo {
+    width: 90px;
+    cursor: pointer;
+}
+
+#nav-links-unorder {
+    display: flex;
+    padding-top: 14px;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-family: var(--sans);
+}
+
+ul li a.nav-items {
+    padding: 0px 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#all-icons {
+    padding-top: 13px;
+    color: #fff;
+}
+
+i.icons {
+    font-size: 18px;
+    padding: 0px 15px;
+    cursor: pointer;
+}
+
+ul li a.nav-items:hover {
+    color: gray;
+    transition: 0.5s;
+}
+
+/* Main section */
+
+.img1 {
+    background: url("images/img1.jpg");
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.img2 {
+    background: url("images/img2.jpg");
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: none;
+}
+
+.img3 {
+    background: url("images/img3.jpg");
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: none;
+}
+
+.all-info {
+    position: absolute;
+    top: 35%;
+    left: 6%;
+}
+
+.main-heading {
+    font-family: var(--sans);
+    margin: 0;
+    font-size: 3.75rem;
+    line-height: 1.2em;
+    padding-bottom: 0;
+    font-weight: 600;
+}
+
+.main-para {
+    font-size: 22px;
+    font-family: var(--ubuntu);
+}
+
+.info-btn {
+    margin-top: 20px;
+}
+
+#btn-info {
+    font-size: 20px;
+    background-color: black;
+    padding: 12px 32px;
+    border-radius: 5px;
+    color: #fff;
+    font-family: var(--sans);
+    border: none;
+}
+
+/* Arrivals */
+.arrivals {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+img.for-width {
+    width: 300px;
+    padding: 0px 10px;
+    cursor: pointer;
+}
+
+section#arrivals-section {
+    padding: 30px 0px;
+}
+
+.skins {
+    position: relative;
+}
+
+span.small {
+    position: absolute;
+    font-family: var(--ubuntu);
+    font-size: 14px;
+    top: 8px;
+    left: 18px;
+    background-color: #eba194;
+    color: #fff;
+    padding: 3px 4px;
+    border-radius: 5px;
+}
+
+h1.heading {
+    padding: 0px 0px 20px 83px;
+    font-family: var(--sans);
+    font-size: 28px;
+}
+
+.skins p {
+    padding-left: 10px;
+}
+
+p.skin-name {
+    font-size: 20px;
+    font-family: var(--ubuntu);
+    margin: 10px 0px;
+    cursor: pointer;
+}
+
+p.skin-price {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: var(--sans);
+}
+
+p.skin-price span {
+    text-decoration: line-through;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: var(--ubuntu);
+    color: gray;
+}
+
+/* Mobile Skins */
+.mobile-all-skins {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.skins {
+    position: relative;
+}
+
+img.for-width {
+    width: 300px;
+    padding: 0px 10px;
+    cursor: pointer;
+}
+
+/* Dark Image */
+img.big-skin {
+    margin-top: 25px;
+    width: 100%;
+    height: 100vh;
+    cursor: pointer;
+    /* background-attachment: center; */
+}
+
+/* Mobile Skin 2 */
+section#mobile-skin-section {
+    padding: 15px 0px;
+}
+
+.mobile-skin-heading {
+    padding: 0px 0px 20px 83px;
+    font-family: var(--sans);
+    font-size: 28px;
+}
+
+.all-images-inst {
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.insta-image {
+    width: 335px;
+    margin: 0px 1px;
+}
+
+p.insta-heading {
+    text-align: center;
+    font-family: var(--ubuntu);
+    padding: 70px 0px 25px 0px;
+    font-size: 30px;
+}
+
+/* Footer Section */
+#footer-section {
+    background: #000000;
+    margin-top: 4px;
+}
+
+.all-footer-content {
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+    padding: 50px 0px;
+}
+
+#left-footer {
+    display: flex;
+}
+
+.footer-left {
+    margin: 0px 30px;
+}
+
+h3.footer-heading {
+    font-family: var(--sans);
+}
+
+.right-footer {
+    text-align: center;
+}
+
+.social-footer {
+    padding: 20px 0px 0px 10px;
+    cursor: pointer;
+}
+
+p.footer-para {
+    font-family: var(--ubuntu);
+    padding: 5px 0px;
+    cursor: pointer;
+}
+
+.small-para-cont {
+    padding-top: 20px;
+}
+
+.payment-method {
+    padding-left: 200px;
+    padding-bottom: 30px;
+    color: #fff;
+}
+
+p.payment-para {
+    margin-left: 100px;
+    font-family: var(--ubuntu);
+    font-size: 10px;
+}
